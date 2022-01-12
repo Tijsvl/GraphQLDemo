@@ -1,4 +1,4 @@
-// Names were randomly generated
+// Randomly generated names
 
 const authors = [
   { id: 1, name: 'Cruz, Julius', squadNumber: 2 },
