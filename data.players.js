@@ -1,8 +1,10 @@
+// Names were randomly generated
+
 const authors = [
-  { id: 1, name: 'van Leur, Tijs', squadNumber: 2 },
-  { id: 2, name: 'Kremers, Stijn', squadNumber: 9 },
-  { id: 3, name: 'Vullings, Nick', squadNumber: 14 },
-  { id: 4, name: 'Salemink, Julian', squadNumber: 99 }
+  { id: 1, name: 'Cruz, Julius', squadNumber: 2 },
+  { id: 2, name: 'Fowler, Erik', squadNumber: 9 },
+  { id: 3, name: 'Turner, Rachel', squadNumber: 14 },
+  { id: 4, name: 'May, Dominic', squadNumber: 99 }
 ]
 
 module.exports = authors
