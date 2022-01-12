@@ -11,10 +11,9 @@ const {
 const app = express()
 
 // Import Dummy Data to act as database
-const positions = require('./data.positions.js')
-// id, name, squadNumber
-const players = require('./data.players.js')
-// id, position, playerId
+const { players, positions } = require('./dummyData.js')
+// players: {id, name, squadNumber}
+// positions: {id, position, playerId}
 
 const PositionType = new GraphQLObjectType({
   name: 'Position',
@@ -193,7 +192,7 @@ app.listen(5555, () => console.log(`Server running`))
 
 // // Add a player
 // mutation {
-//   addPlayer(name: "Bouwman, Jan-Willem", squadNumber: 35) {
+//   addPlayer(name: "Last name, First name", squadNumber: 35) {
 //     name
 //     squadNumber
 //   }
